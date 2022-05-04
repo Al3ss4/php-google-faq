@@ -27,14 +27,24 @@ ul li
     list-style: none;
 }
 
-
-
 .active
 {
-    border-bottom: 3px solid rgb(15, 69, 218);
+    border-bottom: 2px solid rgb(15, 69, 218);
     color: rgb(15, 69, 218);
 }
 main
 {
     margin-top: 150px;
+}
+
+footer
+{
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+
+footer ul li
+{
+    font-size: 12px;
 }

@@ -112,6 +112,34 @@ $db= [
     </div>
 
 </main>
-    
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class=" col-3 ">
+        <ul class="d-flex justify-content-around">
+            <li><a href="#" class="text-decoration-none">Google</a></li>
+            <li><a href="#" class="text-decoration-none">Tutto su Google</a></li>
+            <li><a href="#" class="text-decoration-none">Privacy</a></li>
+            <li><a href="#" class="text-decoration-none">Termini</a></li>
+        </ul>
+    </div>
+        
+    <div class="col-4"></div>
+
+    <div class="d-flex col-2 ">
+    <i class="mt-2"></i>
+    <select class="form-select" aria-label="Default select example">
+        <option value="1">Italiano</option>
+        <option value="2">Inglese</option>
+        <option value="3">Spagnolo</option>
+        <option value="4">Tedesco</option>
+        <option value="5">Francese</option>
+    </select>
+
+    </div>
+    <div class="col-2"></div>
+        </div>
+
+</footer>
 </body>
 </html>
