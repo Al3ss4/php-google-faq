@@ -4,3 +4,37 @@
     box-sizing: border-box;
 }
 
+header
+{
+    height: 100px;
+    border: 1px solid grey;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+header ul li
+{
+    color: grey;
+}
+
+ul li
+{
+    margin-top: 10px;
+    list-style: none;
+}
+
+
+
+.active
+{
+    border-bottom: 3px solid rgb(15, 69, 218);
+    color: rgb(15, 69, 218);
+}
+main
+{
+    margin-top: 150px;
+}
